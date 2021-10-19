@@ -1,9 +1,9 @@
 {
     "devtools_port": 9090,
     "startup_app": {
-        "name": "Client API Studio",
+        "name": "Playground",
         "url": "http://localhost:9000/index.html",
-        "uuid": "client-api-studio",
+        "uuid": "playground",
         "autoShow": true
     },
     "runtime": {
@@ -12,7 +12,7 @@
     },
     "shortcut": {
         "company": "OpenFin",
-        "name": "Client API Studio",
+        "name": "Playground",
         "icon": "http://localhost:9000/favicon.ico"
     }
 }
