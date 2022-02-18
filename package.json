@@ -16,7 +16,7 @@
         "@types/react": "^17.0.24",
         "@types/react-dom": "^17.0.9",
         "html-webpack-plugin": "^5.3.2",
-        "openfin-adapter": "^21.64.9",
+        "openfin-adapter": "23.68.3",
         "ts-loader": "^9.2.6",
         "webpack-cli": "^4.8.0",
         "webpack-dev-server": "^4.2.1"
