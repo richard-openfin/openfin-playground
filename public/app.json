@@ -1,11 +1,14 @@
 {
     "licenseKey": "64605fac-add3-48a0-8710-64b38e96a2dd",
     "devtools_port": 9090,
-    "startup_app": {
+    "platform": {
         "name": "Playground",
         "url": "http://localhost:9000/index.html",
         "uuid": "playground",
-        "autoShow": true
+        "autoShow": false,
+        "defaultWindowOptions": {
+            "contextMenu": true
+        }
     },
     "runtime": {
         "arguments": "",
@@ -15,5 +18,28 @@
         "company": "OpenFin",
         "name": "Playground",
         "icon": "http://localhost:9000/favicon.ico"
+    },
+    "snapshot": {
+        "windows": [
+            {
+                "layout": {
+                    "content": [
+                        {
+                            "type": "stack",
+                            "content": [
+                                {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                        "name": "component_A1",
+                                        "url": "https://cdn.openfin.co/embed-web/chart.html"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
     }
 }
