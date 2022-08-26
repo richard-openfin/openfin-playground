@@ -12,6 +12,7 @@
         "build": "webpack"
     },
     "devDependencies": {
+        "@openfin/core": "^26.71.7",
         "@types/node": "^12.20.26",
         "@types/react": "^17.0.24",
         "@types/react-dom": "^17.0.9",
