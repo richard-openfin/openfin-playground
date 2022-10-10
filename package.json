@@ -3,13 +3,17 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@openfin/workspace": "^10.1.0",
+        "@openfin/workspace-platform": "^10.1.0",
+        "openfin-notifications": "^1.17.2-alpha-1368",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "typescript": "^4.4.3"
     },
     "scripts": {
         "start": "webpack serve",
-        "build": "webpack"
+        "build": "webpack",
+        "clean": "rimraf node_modules/ out/ package-lock.json"
     },
     "devDependencies": {
         "@openfin/core": "^26.71.7",
@@ -18,6 +22,7 @@
         "@types/react-dom": "^17.0.9",
         "html-webpack-plugin": "^5.3.2",
         "openfin-adapter": "stable",
+        "rimraf": "^3.0.2",
         "ts-loader": "^9.2.6",
         "webpack-cli": "^4.8.0",
         "webpack-dev-server": "^4.2.1"
