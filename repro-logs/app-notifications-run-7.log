@@ -1,0 +1,15 @@
+2023-03-31 13:42:16.760 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:17.142 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:17.174 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:17.217 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:17.241 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:17.287 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:17.391 INFO - Creating measurement
+2023-03-31 13:42:17.400 INFO - Creating indicator-window
+2023-03-31 13:42:17.525 INFO - Creating toast-positioner-window
+2023-03-31 13:42:17.609 INFO - Creating toast-invalid-bounds-window
+2023-03-31 13:42:17.702 INFO - Creating toast-success-indicator-window
+2023-03-31 13:42:17.915 DEBUG - Config created [object Object]
+2023-03-31 13:42:17.969 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:17.985 INFO - Creating Notification-Center
+2023-03-31 13:42:18.118 INFO - Service Initialised

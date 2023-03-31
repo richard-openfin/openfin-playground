@@ -1,0 +1,18 @@
+2023-03-31 10:54:03.225 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 10:54:03.413 INFO - [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled.
+2023-03-31 10:54:03.426 INFO - [HMR] Waiting for update signal from WDS...
+2023-03-31 10:54:03.475 INFO - %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+2023-03-31 10:54:03.876 INFO - 111
+2023-03-31 10:54:04.190 WARN - getManifestOverrides: Missing Home development manifest overrides, using Desktop Owner Settings.
+2023-03-31 10:54:04.190 WARN - Channel not found for channelName: of-notifications-service-v1, waiting for channel connection.
+2023-03-31 10:54:04.239 INFO - 222
+2023-03-31 10:54:04.240 INFO - Notification Service: connecting...
+2023-03-31 10:54:04.240 INFO - 222
+2023-03-31 10:54:04.240 INFO - Notification Service: connecting...
+2023-03-31 10:54:04.240 WARN - Channel not found for channelName: of-notifications-service-v1, waiting for channel connection.
+2023-03-31 10:54:04.240 WARN - Channel not found for channelName: of-notifications-service-v1, waiting for channel connection.
+2023-03-31 10:54:09.195 WARN - Taking a long time to connect to Notifications service. Is the Notifications service running?
+2023-03-31 10:54:09.635 WARN - MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 connected listeners added. Use emitter.setMaxListeners() to increase limit
+2023-03-31 10:54:10.493 INFO - Notication Service: connected. channelId: 3c0bb89d-8f03-4edd-94ad-2fdb07369867
+2023-03-31 10:54:10.493 INFO - Notication Service: connected. channelId: 3c0bb89d-8f03-4edd-94ad-2fdb07369867
+2023-03-31 10:54:11.574 WARN - Channel not found for channelName: __of_workspace_protocol__, waiting for channel connection.

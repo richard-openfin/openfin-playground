@@ -1,0 +1,924 @@
+23-03-31 13:42:12.667 | 15300:13016 | INFO | Initialized rvm.log
+23-03-31 13:42:12.667 | 15300:13016 | INFO | LOG_MANAGER | Testing RVM log.
+23-03-31 13:42:12.667 | 15300:13016 | INFO | LOG_MANAGER | -----------------------New RVM Instance-----------------------
+23-03-31 13:42:12.667 | 15300:13016 | INFO | GENERAL | Starting OpenFin RVM - Version 9.0.0.301
+23-03-31 13:42:12.667 | 15300:13016 | INFO | GENERAL | [RVM Directory] - C:\Users\Richard\AppData\Local\OpenFin
+23-03-31 13:42:12.667 | 15300:13016 | INFO | GENERAL | Command line arguments : --config="http://localhost:9000/app.json"
+23-03-31 13:42:12.667 | 15300:13016 | INFO | GENERAL | RVM sessionId: 917673e0-de86-4908-ae2a-69e13e677156
+23-03-31 13:42:12.667 | 15300:13016 | INFO | GENERAL | Integrity Level: 2
+23-03-31 13:42:12.667 | 15300:13016 | INFO | GENERAL | <- Primary RVM
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Global Configuration Inserting:	unusedRuntimeExpirationInMinutes : 0
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Global Configuration Inserting:	maxAppLogFiles : 0
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Global Configuration Inserting:	maxAppLogFileSizeMB : 0
+23-03-31 13:42:12.683 | 15300:13016 | INFO | GENERAL | Initializing RVM configuration settings from Registry
+23-03-31 13:42:12.683 | 15300:13016 | INFO | GENERAL | Checking for RVM config registry settings for local machine
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings\Network":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings\Deployment":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings\ApplicationLogging":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\AppSettings":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.683 | 15300:13016 | INFO | GENERAL | Checking for RVM config registry settings for current user
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | 	runtimeArgs : --inspect --v=1
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings":
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Global Configuration Inserting:	trackBetaAutoUpdates : 0
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | 	trackBetaAutoUpdates : 0
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Global Configuration Inserting:	DesktopOwnerSettings : https://jsonblob.com/api/1088753725430054912
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | 	DesktopOwnerSettings : https://jsonblob.com/api/1088753725430054912
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Global Configuration Inserting:	enableUnsafeBrowserProcessDebugging : 1
+23-03-31 13:42:12.683 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings\Network":
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings\Deployment":
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\Settings\ApplicationLogging":
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Reading from "Software\OpenFin\RVM\AppSettings":
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 1070452240
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 17048003
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 1748049390
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 1841599057
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 1956703844
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2131091458
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2141861353
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.696 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2158855615
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2313309613
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2354455524
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2576584156
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2915012267
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 2939684987
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 4003512174
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 4028115267
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 4044159419
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 4252286244
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 4265401569
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Parsed App Hash Key: 900892206
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableDesktopShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartMenuShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | 	EnableStartupShortcut : 0
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.699 | 15300:13016 | INFO | GENERAL | Checking for RVM config registry settings for local machine
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings\Network":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings\Deployment":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings\ApplicationLogging":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\AppSettings":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.699 | 15300:13016 | INFO | GENERAL | Checking for RVM config registry settings for current user
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings\Network":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings\Deployment":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\Settings\ApplicationLogging":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Reading from "Software\Microsoft\Windows\CurrentVersion\Policies\OpenFin\RVM\AppSettings":
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Global Configuration key: readTimeout missing. Using default value.
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Global Configuration key: receiveTimeout missing. Using default value.
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Global Configuration key: sendTimeout missing. Using default value.
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Global Configuration key: connectTimeout missing. Using default value.
+23-03-31 13:42:12.699 | 15300:13016 | INFO | NETWORK | Initializing WinINet
+23-03-31 13:42:12.699 | 15300:13016 | INFO | NETWORK | Receive timeout: 30000
+23-03-31 13:42:12.699 | 15300:13016 | INFO | NETWORK | Connect timeout: 30000
+23-03-31 13:42:12.699 | 15300:13016 | INFO | NETWORK | Send timeout: 30000
+23-03-31 13:42:12.699 | 15300:13016 | INFO | VERBOSE | Global Configuration key: remoteConfigUrl missing. Using default value.
+23-03-31 13:42:12.699 | 15300:13016 | INFO | NETWORK | Get request for url: "https://cdn.openfin.co/release/rvm/RemoteConfig"
+23-03-31 13:42:12.699 | 15300:13016 | INFO | NETWORK | Processing url: "https://cdn.openfin.co/release/rvm/RemoteConfig"
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | ContentLength: 144
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | ContentLength: 144
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | Result: 1, total read: 144
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | Get request completed in: 159 milliseconds
+23-03-31 13:42:12.858 | 15300:13016 | INFO | VERBOSE | Global Configuration key: overrideEnvUrl missing. Using default value.
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | Get request for url: "https://jsonblob.com/api/1088753725430054912"
+23-03-31 13:42:12.858 | 15300:13016 | INFO | NETWORK | Processing url: "https://jsonblob.com/api/1088753725430054912"
+23-03-31 13:42:12.921 | 15300:13016 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:12.921 | 15300:13016 | INFO | NETWORK | ContentLength: 112
+23-03-31 13:42:12.921 | 15300:13016 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:12.921 | 15300:13016 | INFO | NETWORK | ContentLength: 112
+23-03-31 13:42:12.921 | 15300:13016 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:12.921 | 15300:13016 | INFO | NETWORK | Result: 1, total read: 112
+23-03-31 13:42:12.921 | 15300:13016 | INFO | NETWORK | Get request completed in: 63 milliseconds
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Using Cloud DesktopOwnerSettings.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | DesktopOwnerSettings JSON:
+{
+    "desktopSettings" : {
+        "systemApps" : {
+            "workspace" : {
+                "customConfig" : {
+                }
+            }
+        }
+    }
+}
+23-03-31 13:42:12.921 | 15300:13016 | INFO | GENERAL | Parsing DesktopOwnerSettings configuration
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | OpenFin System Applications: 
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Global Configuration key: systemAppsEnvironment missing. Using default value.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | 	workspace
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | DesktopOwnerSettings has been activated
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Global Configuration key: rvmInstallDirectory missing. Using default value.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | GENERAL | rvmInstallDirectory not specified, defaulting to %LOCALAPPDATA%/OpenFin
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Global Configuration key: assetsUrl missing. Using default value.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | 	Using assetsUrl: https://cdn.openfin.co/release/
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Global Configuration key: takeoverManagerExperimental missing. Using default value.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Global Configuration key: analyticsUrl missing. Using default value.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Global Configuration key: takeoverManagerExperimental missing. Using default value.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | GENERAL | Continuing on with loading app as we are currently the primary RVM.
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Global Configuration key: protocolHandlerLocation missing. Using default value.
+23-03-31 13:42:12.921 | 15300:13016 | ERROR | VERBOSE | Utils::Environment::IsUserSystemAccountError looking up account name: 122; assuming non-system account
+23-03-31 13:42:12.921 | 15300:13016 | INFO | VERBOSE | Already registered fin protocol. Going to Delete and Create updated protocol.
+23-03-31 13:42:12.938 | 15300:13016 | INFO | VERBOSE | Registered fin protocol
+23-03-31 13:42:12.938 | 15300:13016 | ERROR | VERBOSE | Utils::Environment::IsUserSystemAccountError looking up account name: 122; assuming non-system account
+23-03-31 13:42:12.938 | 15300:13016 | INFO | VERBOSE | Already registered fins protocol. Going to Delete and Create updated protocol.
+23-03-31 13:42:12.938 | 15300:13016 | INFO | VERBOSE | Registered fins protocol
+23-03-31 13:42:12.938 | 15300:13016 | INFO | VERBOSE | Initializing RVM cache
+23-03-31 13:42:12.968 | 15300:13016 | INFO | GENERAL | [Working Directory] - C:\Users\Richard\AppData\Local\OpenFin
+23-03-31 13:42:12.968 | 15300:13016 | INFO | GENERAL | Working dir has sufficient access !
+23-03-31 13:42:12.968 | 15300:13016 | INFO | VERBOSE | Global Configuration key: assetsUrl missing. Using default value.
+23-03-31 13:42:12.968 | 15300:13016 | INFO | VERBOSE | Global Configuration key: disableAutoUpdates missing. Using default value.
+23-03-31 13:42:12.968 | 15300:13016 | INFO | VERBOSE | Global Configuration key: disableAutoUpdates missing. Using default value.
+23-03-31 13:42:12.968 | 15300:13016 | INFO | NETWORK | Get request for url: "https://cdn.openfin.co/release/rvm/latestVersion"
+23-03-31 13:42:12.968 | 15300:13016 | INFO | NETWORK | Processing url: "https://cdn.openfin.co/release/rvm/latestVersion"
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | ContentLength: 9
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | ContentLength: 9
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | Result: 1, total read: 9
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | Get request completed in: 110 milliseconds
+23-03-31 13:42:13.078 | 15300:13016 | INFO | GENERAL | Running RVM version: 9.0.0.301, comparing to Latest: 9.0.0.301
+23-03-31 13:42:13.078 | 15300:13016 | INFO | GENERAL | Currently running the latest RVM version, nothing to update.
+23-03-31 13:42:13.078 | 15300:13016 | ERROR | GENERAL | Could not parse the remote config: Error while trying to access 'releaseConfig' key. Error: releaseConfig was not present in JSON object.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: rvmInstallDirectory missing. Using default value.
+23-03-31 13:42:13.078 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:13.078 | 15300:4500 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:13.078 | 15300:4500 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:13.078 | 15300:4500 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: connectTimeout missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: sendTimeout missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: receiveTimeout missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: readTimeout missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | Receive timeout: 30000
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | Connect timeout: 30000
+23-03-31 13:42:13.078 | 15300:13016 | INFO | NETWORK | Send timeout: 30000
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: EnableStartMenuShortcut missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: EnableDesktopShortcut missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: EnableStartupShortcut missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: disableShortcutCreation missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: startMenuRootFolder missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | PATHS | THIS_RVM_BINARY_DIR -> '"C:\Users\Richard\AppData\Local\OpenFin"'
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: runtimeDirectory missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | PATHS | RUNTIME_INSTALLATIONS_DIR -> '"C:\Users\Richard\AppData\Local\OpenFin\runtime"'
+23-03-31 13:42:13.078 | 15300:13016 | INFO | VERBOSE | Global Configuration key: runtimeCache missing. Using default value.
+23-03-31 13:42:13.078 | 15300:13016 | INFO | PATHS | RUNTIME_PROFILES_DIR -> '"C:\Users\Richard\AppData\Local\OpenFin\cache"'
+23-03-31 13:42:13.093 | 15300:13016 | INFO | VERBOSE | rescanConfigsIntervalMs: 01:00:00; licensingHeartbeatIntervalMs: 00:10:00
+23-03-31 13:42:13.093 | 15300:13016 | INFO | VERBOSE | Global Configuration key: runtimeCache missing. Using default value.
+23-03-31 13:42:13.093 | 15300:13016 | INFO | VERBOSE | Global Configuration key: runtimeDiagnosticsOffsetZero missing. Using default value.
+23-03-31 13:42:13.093 | 15300:13016 | INFO | VERBOSE | Number of orphaned runtime processes detected: 0
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: disableCandidateEval missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: remoteConfigUrl missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: analyticsUrl missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Creating Tray Icon Host
+23-03-31 13:42:13.109 | 15300:12528 | INFO | VERBOSE | EvaluationConfig successfully initialized.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: enableInstallationDetection missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: enableTrayIconShortcuts missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | HEALTHCHECK_REQUEST_MAKER | Created
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: lrsUrl missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	Using RdmUrl: https://dl.openfin.co/services/
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Get request for url: "http://localhost:9000/app.json"
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Processing url: "http://localhost:9000/app.json"
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | ContentLength: 496
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Content-Type: application/json; charset=UTF-8
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | ContentLength: 496
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Content-Type: application/json; charset=UTF-8
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Result: 1, total read: 496
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Get request completed in: 0 milliseconds
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | JSON from http://localhost:9000/app.json:
+{
+    "devtools_port" : 9090,
+    "licenseKey" : "64605fac-add3-48a0-8710-64b38e96a2dd",
+    "platform" : {
+        "autoShow" : true,
+        "name" : "Playground",
+        "providerUrl" : "http://localhost:9000/index.html",
+        "uuid" : "playground"
+    },
+    "runtime" : {
+        "arguments" : "",
+        "version" : "29.108.73.14"
+    },
+    "shortcut" : {
+        "company" : "OpenFin",
+        "icon" : "http://localhost:9000/favicon.ico",
+        "name" : "Playground"
+    }
+}
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Attempting to parse app config from JSON
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	[-- Relative paths enabled. --]
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	rootUrl : http://localhost:9000
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform's UUID : playground
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform's Provider URL : http://localhost:9000/index.html
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform's name : Playground
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform: 
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	runtime:
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 		version : 29.108.73.14
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 		arguments : 
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	shortcut : JSON Object that will be parsed later
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	licenseKey : 64605fac-add3-48a0-8710-64b38e96a2dd
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Successfully parsed APP Config JSON keys/values
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: crashReporterUrl missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Global Configuration key: lrsUrl missing. Using default value.
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	Using RdmUrl: https://dl.openfin.co/services/
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Get request for url: "http://localhost:9000/app.json"
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Processing url: "http://localhost:9000/app.json"
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | ContentLength: 496
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Content-Type: application/json; charset=UTF-8
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | ContentLength: 496
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Content-Type: application/json; charset=UTF-8
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Result: 1, total read: 496
+23-03-31 13:42:13.109 | 15300:13016 | INFO | NETWORK | Get request completed in: 0 milliseconds
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | JSON from http://localhost:9000/app.json:
+{
+    "devtools_port" : 9090,
+    "licenseKey" : "64605fac-add3-48a0-8710-64b38e96a2dd",
+    "platform" : {
+        "autoShow" : true,
+        "name" : "Playground",
+        "providerUrl" : "http://localhost:9000/index.html",
+        "uuid" : "playground"
+    },
+    "runtime" : {
+        "arguments" : "",
+        "version" : "29.108.73.14"
+    },
+    "shortcut" : {
+        "company" : "OpenFin",
+        "icon" : "http://localhost:9000/favicon.ico",
+        "name" : "Playground"
+    }
+}
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Attempting to parse app config from JSON
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	[-- Relative paths enabled. --]
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	rootUrl : http://localhost:9000
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform's UUID : playground
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform's Provider URL : http://localhost:9000/index.html
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform's name : Playground
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	platform: 
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	runtime:
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 		version : 29.108.73.14
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 		arguments : 
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	shortcut : JSON Object that will be parsed later
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | 	licenseKey : 64605fac-add3-48a0-8710-64b38e96a2dd
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Successfully parsed APP Config JSON keys/values
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:13.109 | 15300:13016 | INFO | VERBOSE | Saving support email: support@openfin.co; and offlineAccessEnabled: 0; to cache
+23-03-31 13:42:13.125 | 15300:13016 | INFO | VERBOSE | strAppUserModelId: OpenFin.Playground
+23-03-31 13:42:13.125 | 15300:13016 | INFO | VERBOSE | Global Configuration key: createShortcutsForAllUsers missing. Using default value.
+23-03-31 13:42:13.141 | 15300:13016 | INFO | GENERAL | Added app to load queue: http://localhost:9000/app.json, origin: ConfigSwitchOnCommandLine
+23-03-31 13:42:13.141 | 15300:13016 | INFO | APP_REGISTRY | Added 'http://localhost:9000/app.json'
+23-03-31 13:42:13.141 | 15300:13016 | INFO | APP_REGISTRY | http://localhost:9000/app.json: Created -> Created [NO ERROR]
+23-03-31 13:42:13.141 | 15300:13016 | INFO | APP_REGISTRY | http://localhost:9000/app.json: Created -> Loading [NO ERROR]
+23-03-31 13:42:13.141 | 15300:22152 | ERROR | VERBOSE | App manifest url scheme is not HTTPS.
+23-03-31 13:42:13.141 | 15300:22152 | WARNING | VERBOSE | App manifest url has invalid SSL certificate. Cannot certify app installation.
+23-03-31 13:42:13.141 | 15300:22152 | INFO | VERBOSE | Global Configuration key: appDirectoryUrl missing. Using default value.
+23-03-31 13:42:13.141 | 15300:22152 | INFO | NETWORK | Get request for url: "https://config.openfin.co/api/v1/info?manifest=http://localhost:9000/app.json"
+23-03-31 13:42:13.141 | 15300:22152 | INFO | NETWORK | Processing url: "https://config.openfin.co/api/v1/info?manifest=http://localhost:9000/app.json"
+23-03-31 13:42:13.502 | 15300:4500 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:13.502 | 15300:4500 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:13.502 | 15300:4500 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:13.502 | 15300:4500 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:13.502 | 15300:4500 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:13.502 | 15300:4500 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:13.517 | 15300:4500 | INFO | NETWORK | Post request completed in: 439 milliseconds
+23-03-31 13:42:13.517 | 15300:4500 | INFO | NETWORK | HTTP task complete in: 439 milliseconds
+23-03-31 13:42:13.565 | 15300:22152 | INFO | NETWORK | StatusCode: 404
+23-03-31 13:42:13.565 | 15300:22152 | INFO | NETWORK | ContentLength: 51
+23-03-31 13:42:13.565 | 15300:22152 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:13.565 | 15300:22152 | ERROR | NETWORK | Unhandled HTTP status code
+23-03-31 13:42:13.565 | 15300:22152 | INFO | NETWORK | Get request completed in: 424 milliseconds
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | Failed to reach config url. Trying local file.
+23-03-31 13:42:13.565 | 15300:22152 | ERROR | VERBOSE | It has been 19447 day(s) since Config was cached. The cached copy has expired.
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | Invalid cached copy. path: apps\Playground_3081587506\app_directory_info.json
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | Could not retrieve config locally.
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | Was not able to retrieve certified info for AppConfig: http://localhost:9000/app.json
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | Certifying App Info: 
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	HasRun : 1
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	IsCertified : 0
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	IsSSLCertValid : 0
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	SuppressAnalytics : 0
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	enableDosCapture : 0
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	IsOptedIntoCertifiedApp : 0
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	IsCertifiedInAppDirectory : 0
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	appAnalytics : 1
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	desktopOwnerSettings : {
+}
+23-03-31 13:42:13.565 | 15300:22152 | INFO | VERBOSE | 	permissions : {
+}
+23-03-31 13:42:13.565 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:13.565 | 15300:13016 | INFO | VERBOSE | App will use the following assets URL: https://cdn.openfin.co/release/
+23-03-31 13:42:13.565 | 15300:4500 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:13.565 | 15300:13016 | INFO | VERBOSE | App will use the following RDM URL: https://dl.openfin.co/services/
+23-03-31 13:42:13.565 | 15300:4500 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:13.565 | 15300:4500 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:13.565 | 15300:13016 | INFO | VERBOSE | Global Configuration key: runtimeVersion missing. Using default value.
+23-03-31 13:42:13.565 | 15300:13016 | INFO | GENERAL | Resolved https://cdn.openfin.co/release/runtime/29.108.73.14 to the runtime version: 29.108.73.14 -- Using Cache
+23-03-31 13:42:13.565 | 15300:13016 | INFO | GENERAL | Resolved https://cdn.openfin.co/release/runtime/29.108.73.14 to the runtime version: 29.108.73.14 -- Ignoring Cache
+23-03-31 13:42:13.565 | 15300:13016 | INFO | GENERAL | App load has successfully started for: http://localhost:9000/app.json
+23-03-31 13:42:13.565 | 15300:13016 | INFO | GENERAL | Installing application's shortcuts
+23-03-31 13:42:13.565 | 15300:13016 | INFO | VERBOSE | Global Configuration key: shortcutPointsToOriginalInstall missing. Using default value.
+23-03-31 13:42:13.640 | 15300:13016 | INFO | NETWORK | Get request for url: "http://cdn.openfin.co/release/rvm/ApiLanguage"
+23-03-31 13:42:13.640 | 15300:13016 | INFO | NETWORK | Processing url: "http://cdn.openfin.co/release/rvm/ApiLanguage"
+23-03-31 13:42:13.785 | 15300:13016 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:13.785 | 15300:13016 | INFO | NETWORK | ContentLength: 1093
+23-03-31 13:42:13.785 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:13.785 | 15300:13016 | INFO | NETWORK | ContentLength: 1093
+23-03-31 13:42:13.785 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:13.785 | 15300:13016 | INFO | NETWORK | Result: 1, total read: 1093
+23-03-31 13:42:13.785 | 15300:13016 | INFO | NETWORK | Get request completed in: 145 milliseconds
+23-03-31 13:42:13.816 | 15300:13016 | INFO | VERBOSE | Global Configuration key: secureByDefault missing. Using default value.
+23-03-31 13:42:13.816 | 15300:5832 | INFO | VERBOSE | About to perform licensing with https://dl.openfin.co/services/licensing
+23-03-31 13:42:13.816 | 15300:5832 | INFO | NETWORK | Post request for url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:13.816 | 15300:5832 | INFO | NETWORK | Processing url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:13.816 | 15300:13016 | WARNING | VERBOSE | SetShortcutAppUserModelId: pPropertyStore->SetValue failed; hr: 1; native notifications may not pick up the right icon
+23-03-31 13:42:13.816 | 15300:13016 | INFO | VERBOSE | Global Configuration key: enableRuntimeDiagnostics missing. Using default value.
+23-03-31 13:42:13.816 | 15300:13016 | INFO | GENERAL | Registered app: http://localhost:9000/app.json for app diagnostics.
+23-03-31 13:42:13.816 | 15300:13016 | INFO | VERBOSE | Did not detect security realm change.
+23-03-31 13:42:13.816 | 15300:13016 | INFO | GENERAL | Launching the runtime: C:\Users\Richard\AppData\Local\OpenFin\runtime\29.108.73.14\OpenFin\openfin.exe
+23-03-31 13:42:13.816 | 15300:13016 | INFO | GENERAL | With the following arguments:
+	"C:\Users\Richard\AppData\Local\OpenFin\runtime\29.108.73.14\OpenFin\openfin.exe" --user-data-dir="C:\Users\Richard\AppData\Local\OpenFin" --version-keyword="29.108.73.14" --inspect --v=1 --enable-desktop-owner-settings --data-dir="C:\Users\Richard\AppData\Local\OpenFin\data\3393041698" --local-startup-url="C:\Users\Richard\AppData\Local\OpenFin\apps\Playground_3081587506\config.json" --startup-url="http://localhost:9000/app.json" 
+23-03-31 13:42:13.840 | 15300:13016 | INFO | VERBOSE | Monitoring process handle: 00000A04
+23-03-31 13:42:13.840 | 15300:13016 | INFO | VERBOSE | Starting monitor thread
+23-03-31 13:42:13.840 | 15300:13016 | INFO | APP_REGISTRY | http://localhost:9000/app.json: Loading -> Loaded [NO ERROR]
+23-03-31 13:42:13.840 | 15300:13016 | INFO | GENERAL | Successfully loaded the app: http://localhost:9000/app.json
+23-03-31 13:42:13.840 | 15300:19972 | INFO | VERBOSE | Running monitor thread
+23-03-31 13:42:13.840 | 15300:19972 | INFO | VERBOSE | Refreshing handles array
+23-03-31 13:42:13.848 | 15300:13016 | INFO | RUNTIME_MANAGER | Runtime '29.108.73.14' [0x00001844] -> Started
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | Post request completed in: 314 milliseconds
+23-03-31 13:42:13.879 | 15300:4500 | INFO | NETWORK | HTTP task complete in: 314 milliseconds
+23-03-31 13:42:13.879 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:13.879 | 15300:20432 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:13.895 | 15300:20432 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:13.895 | 15300:20432 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | Post request completed in: 299 milliseconds
+23-03-31 13:42:14.194 | 15300:20432 | INFO | NETWORK | HTTP task complete in: 299 milliseconds
+23-03-31 13:42:14.194 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:14.194 | 15300:22152 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:14.194 | 15300:22152 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:14.194 | 15300:22152 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:14.262 | 15300:5832 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:14.262 | 15300:5832 | INFO | NETWORK | ContentLength: 16
+23-03-31 13:42:14.262 | 15300:5832 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:14.262 | 15300:5832 | INFO | NETWORK | ContentLength: 16
+23-03-31 13:42:14.262 | 15300:5832 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:14.262 | 15300:5832 | INFO | NETWORK | Result: 1, total read: 16
+23-03-31 13:42:14.262 | 15300:5832 | INFO | NETWORK | Post request completed in: 446 milliseconds
+23-03-31 13:42:14.314 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:14.314 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x00DF0796; messageId: 2837ba08-59d5-4644-b2f4-918b971f7ce2; payload: {"action":"get-desktop-owner-settings","isGlobal":true,"processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","sourceUrl":"http://localhost:9000/app.json","timeToLive":2,"useSourceUrl":true}
+23-03-31 13:42:14.314 | 15300:13016 | INFO | VERBOSE | Global Configuration key: secureByDefault missing. Using default value.
+23-03-31 13:42:14.314 | 15300:13016 | INFO | VERBOSE | Policy for http://localhost:9000/app.json is empty, trying for default policy
+23-03-31 13:42:14.319 | 15300:13016 | INFO | VERBOSE | QueueOutgoingMessage: [PendingRequest ID:1;attempt:0;duration:00:00:00.004003;->0x00DF0796;[FromRvmMessage [ ] application/get-desktop-owner-settings:2837ba08-59d5-4644-b2f4-918b971f7ce2]]
+23-03-31 13:42:14.319 | 15300:13016 | INFO | VERBOSE | MaybeScheduleNextRequestAttempt: Scheduling attempt in 00:00:00.001000: Initial Timer
+23-03-31 13:42:14.319 | 15300:13016 | INFO | VERBOSE | get-desktop-owner-settings response scheduled with ID 1
+23-03-31 13:42:14.326 | 15300:13016 | INFO | VERBOSE | OnTimerFired: Looking for request: Initial Timer
+23-03-31 13:42:14.329 | 15300:13016 | INFO | VERBOSE | TrySendMessage: Found request: [PendingRequest ID:1;attempt:0;duration:00:00:00.014246;->0x00DF0796;[FromRvmMessage [ ] application/get-desktop-owner-settings:2837ba08-59d5-4644-b2f4-918b971f7ce2]]
+23-03-31 13:42:14.329 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x00DF0796 timeout=00:00:00.300000 message={"messageId":"2837ba08-59d5-4644-b2f4-918b971f7ce2","payload":{"action":"get-desktop-owner-settings","applicationSettingsExists":true,"desktopOwnerFileExists":true,"openfinSystemApplications":{"workspace":{"customConfig":{}}},"payload":{"http://localhost:9000/app.json":{"permissions":{}}},"success":true},"topic":"application"}
+23-03-31 13:42:14.336 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x00DF0796, took  0.006910s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"messageId":"2837ba08-59d5-4644-b2f4-918b971f7ce2","payload":{"action":"get-desktop-owner-settings","applicationSettingsExists":true,"desktopOwnerFileExists":true,"openfinSystemApplications":{"workspace":{"customConfig":{}}},"payload":{"http://localhost:9000/app.json":{"permissions":{}}},"success":true},"topic":"application"}
+23-03-31 13:42:14.336 | 15300:13016 | INFO | VERBOSE | TrySendMessage: Request sent OK: [PendingRequest ID:1;attempt:0;duration:00:00:00.021764;->0x00DF0796;[FromRvmMessage [ ] application/get-desktop-owner-settings:2837ba08-59d5-4644-b2f4-918b971f7ce2]]
+23-03-31 13:42:14.336 | 15300:13016 | INFO | VERBOSE | get-desktop-owner-settings response with ID 1 result is VoidOrError: <no error>
+23-03-31 13:42:14.413 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:14.413 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x00DF0796; messageId: cca0ca7a-f1ea-476a-a89c-b4b3326a0af2; payload: {"action":"launched-from","processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","sourceUrl":"http://localhost:9000/app.json","timeToLive":2}
+23-03-31 13:42:14.413 | 15300:13016 | INFO | VERBOSE | Processed launched-from message for http://localhost:9000/app.json
+23-03-31 13:42:14.413 | 15300:13016 | INFO | VERBOSE | Outgoing Message to 00DF0796
+	{"broadcast":false,"messageId":"cca0ca7a-f1ea-476a-a89c-b4b3326a0af2","payload":{"action":"launched-from","source":"shortcut"},"topic":"application"}
+23-03-31 13:42:14.413 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x00DF0796 timeout=00:00:01 message={"broadcast":false,"messageId":"cca0ca7a-f1ea-476a-a89c-b4b3326a0af2","payload":{"action":"launched-from","source":"shortcut"},"topic":"application"}
+23-03-31 13:42:14.444 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:14.444 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x00DF0796
+	{"topic":"application-event","messageId":"1a6ec73c-59c4-4ac2-9270-b511bafaa2e7","payload":{"processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","type":"started","sourceUrl":"http://localhost:9000/app.json","sessionId":"a312a1c3-7541-4ac4-a892-e92f6d2954a4","data":{"licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd","uuid":"playground","client":{"type":"js"},"parentApp":{"uuid":null,"configUrl":null},"contentUrl":"http://localhost:9000/index.html"}}}
+23-03-31 13:42:14.444 | 15300:13016 | INFO | APP_REGISTRY | http://localhost:9000/app.json: Loaded -> Started [NO ERROR]
+23-03-31 13:42:14.444 | 15300:13016 | INFO | ENPOINT_ID_REGISTRY | 'http://localhost:9000/app.json' -> 0x00DF0796
+23-03-31 13:42:14.444 | 15300:13016 | INFO | HEALTHCHECK_REQUEST_MAKER | OnEndpointIdSet: 'http://localhost:9000/app.json' -> '0x00DF0796'
+23-03-31 13:42:14.444 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x00DF0796, took  0.041834s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"broadcast":false,"messageId":"cca0ca7a-f1ea-476a-a89c-b4b3326a0af2","payload":{"action":"launched-from","source":"shortcut"},"topic":"application"}
+23-03-31 13:42:14.444 | 15300:5832 | INFO | VERBOSE | About to perform licensing with https://dl.openfin.co/services/licensing
+23-03-31 13:42:14.444 | 15300:5832 | INFO | NETWORK | Post request for url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:14.444 | 15300:5832 | INFO | NETWORK | Processing url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | Post request completed in: 330 milliseconds
+23-03-31 13:42:14.524 | 15300:22152 | INFO | NETWORK | HTTP task complete in: 330 milliseconds
+23-03-31 13:42:14.524 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:14.524 | 15300:20432 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:14.524 | 15300:20432 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:14.524 | 15300:20432 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:14.774 | 15300:5832 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:14.774 | 15300:5832 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.774 | 15300:5832 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.774 | 15300:5832 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.774 | 15300:5832 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.774 | 15300:5832 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:14.774 | 15300:5832 | INFO | NETWORK | Post request completed in: 330 milliseconds
+23-03-31 13:42:14.842 | 15300:20432 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:14.843 | 15300:20432 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.843 | 15300:20432 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.843 | 15300:20432 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:14.843 | 15300:20432 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:14.843 | 15300:20432 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:14.843 | 15300:20432 | INFO | NETWORK | Post request completed in: 319 milliseconds
+23-03-31 13:42:14.843 | 15300:20432 | INFO | NETWORK | HTTP task complete in: 319 milliseconds
+23-03-31 13:42:14.917 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:14.917 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x00DF0796
+	{"topic":"application-event","messageId":"67d07d15-f9b2-4252-9f79-d9dcb8f9ada9","payload":{"processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","type":"ready","sourceUrl":"http://localhost:9000/app.json","hideSplashScreenSupported":true}}
+23-03-31 13:42:14.917 | 15300:13016 | INFO | APP_REGISTRY | http://localhost:9000/app.json: Started -> Ready [NO ERROR]
+23-03-31 13:42:15.018 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:15.019 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x00DF0796; messageId: fab61dcb-b478-4c4b-bf5d-ed3758a96b05; payload: {"action":"hide-splashscreen","processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","sourceUrl":"http://localhost:9000/app.json"}
+23-03-31 13:42:15.019 | 15300:13016 | INFO | GENERAL | Processed manual hide-splashscreen message for http://localhost:9000/app.json
+23-03-31 13:42:15.019 | 15300:13016 | INFO | VERBOSE | Uninitializing CAD
+23-03-31 13:42:15.019 | 15300:13016 | INFO | VERBOSE | Outgoing Message to 00DF0796
+	{"messageId":"fab61dcb-b478-4c4b-bf5d-ed3758a96b05","success":true}
+23-03-31 13:42:15.019 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x00DF0796 timeout=00:00:01 message={"messageId":"fab61dcb-b478-4c4b-bf5d-ed3758a96b05","success":true}
+23-03-31 13:42:15.021 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x00DF0796, took  0.001991s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"messageId":"fab61dcb-b478-4c4b-bf5d-ed3758a96b05","success":true}
+23-03-31 13:42:15.105 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:15.105 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x00DF0796
+	{"topic":"system","messageId":"76698fcc-39e6-4c26-a87b-ea2866f38a71","payload":{"processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","action":"get-rvm-info","timeToLive":5,"sourceUrl":"http://localhost:9000/app.json"}}
+23-03-31 13:42:15.105 | 15300:13016 | INFO | VERBOSE | Outgoing Message to 00DF0796
+	{"broadcast":false,"messageId":"76698fcc-39e6-4c26-a87b-ea2866f38a71","payload":{"action":"get-rvm-info","appLogDirectory":"C:\\Users\\Richard\\AppData\\Local\\OpenFin\\apps\\Playground_3081587506","path":"C:\\Users\\Richard\\AppData\\Local\\OpenFin\\OpenFinRVM.exe","start-time":"2023-03-31 13:42:12","version":"9.0.0.301","working-dir":"C:\\Users\\Richard\\AppData\\Local\\OpenFin"},"topic":"system"}
+23-03-31 13:42:15.105 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x00DF0796 timeout=00:00:01 message={"broadcast":false,"messageId":"76698fcc-39e6-4c26-a87b-ea2866f38a71","payload":{"action":"get-rvm-info","appLogDirectory":"C:\\Users\\Richard\\AppData\\Local\\OpenFin\\apps\\Playground_3081587506","path":"C:\\Users\\Richard\\AppData\\Local\\OpenFin\\OpenFinRVM.exe","start-time":"2023-03-31 13:42:12","version":"9.0.0.301","working-dir":"C:\\Users\\Richard\\AppData\\Local\\OpenFin"},"topic":"system"}
+23-03-31 13:42:15.105 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x00DF0796, took  0.000062s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"broadcast":false,"messageId":"76698fcc-39e6-4c26-a87b-ea2866f38a71","payload":{"action":"get-rvm-info","appLogDirectory":"C:\\Users\\Richard\\AppData\\Local\\OpenFin\\apps\\Playground_3081587506","path":"C:\\Users\\Richard\\AppData\\Local\\OpenFin\\OpenFinRVM.exe","start-time":"2023-03-31 13:42:12","version":"9.0.0.301","working-dir":"C:\\Users\\Richard\\AppData\\Local\\OpenFin"},"topic":"system"}
+23-03-31 13:42:15.179 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:15.180 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x00DF0796; messageId: c23a892e-a22b-4ee7-bff3-6f0a98d6b0b8; payload: {"action":"launch-app","data":{"configUrl":"fins://system-apps/notification-center","rvmLaunchOptions":{"noUi":true}},"processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","sourceUrl":"http://localhost:9000/app.json","timeToLive":60}
+23-03-31 13:42:15.181 | 15300:16836 | INFO | GENERAL | Updating RVM config registry settings for local machine
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:15.181 | 15300:16836 | INFO | GENERAL | Updating RVM config registry settings for current user
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | Global Configuration Overwriting:	DesktopOwnerSettings : https://jsonblob.com/api/1088753725430054912
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | 	DesktopOwnerSettings : https://jsonblob.com/api/1088753725430054912
+23-03-31 13:42:15.181 | 15300:16836 | INFO | GENERAL | Updating RVM config registry settings for local machine
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:15.181 | 15300:16836 | INFO | GENERAL | Updating RVM config registry settings for current user
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.181 | 15300:16836 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:15.181 | 15300:16836 | INFO | NETWORK | Get request for url: "https://jsonblob.com/api/1088753725430054912"
+23-03-31 13:42:15.181 | 15300:16836 | INFO | NETWORK | Processing url: "https://jsonblob.com/api/1088753725430054912"
+23-03-31 13:42:15.191 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:15.192 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x00DF0796
+	{"topic":"system","messageId":"49196ef9-87c0-4b63-a3ae-32ca265acfaf","payload":{"processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","timeToLive":5,"action":"usage-licensing","uuid":"playground","name":"playground","sourceUrl":"http://localhost:9000/app.json","contentUrl":"http://localhost:9000/index.html","licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd","manifestType":"platform","payload":{"data":{"apiVersion":"11.0.6","componentName":"Platform","componentVersion":"11.0.6","allowed":true},"type":"workspace-licensing"}}}
+23-03-31 13:42:15.192 | 15300:13016 | ERROR | VERBOSE | SystemTopicDelegate::RespondToFeatureUsageLicensing; Unable to retrieve app for strSourceUrl: http://localhost:9000/app.json ; defaulting rdmUrl.
+23-03-31 13:42:15.192 | 15300:13016 | INFO | VERBOSE | Outgoing Message to 00DF0796
+	{"messageId":"49196ef9-87c0-4b63-a3ae-32ca265acfaf","success":true}
+23-03-31 13:42:15.192 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x00DF0796 timeout=00:00:01 message={"messageId":"49196ef9-87c0-4b63-a3ae-32ca265acfaf","success":true}
+23-03-31 13:42:15.192 | 15300:5832 | INFO | VERBOSE | About to perform licensing with https://dl.openfin.co/services/licensing/register-feature-usage
+23-03-31 13:42:15.192 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x00DF0796, took  0.000152s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"messageId":"49196ef9-87c0-4b63-a3ae-32ca265acfaf","success":true}
+23-03-31 13:42:15.192 | 15300:5832 | INFO | NETWORK | Post request for url: "https://dl.openfin.co/services/licensing/register-feature-usage"
+23-03-31 13:42:15.192 | 15300:5832 | INFO | NETWORK | Processing url: "https://dl.openfin.co/services/licensing/register-feature-usage"
+23-03-31 13:42:15.247 | 15300:16836 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:15.247 | 15300:16836 | INFO | NETWORK | ContentLength: 112
+23-03-31 13:42:15.247 | 15300:16836 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:15.247 | 15300:16836 | INFO | NETWORK | ContentLength: 112
+23-03-31 13:42:15.247 | 15300:16836 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:15.247 | 15300:16836 | INFO | NETWORK | Result: 1, total read: 112
+23-03-31 13:42:15.247 | 15300:16836 | INFO | NETWORK | Get request completed in: 66 milliseconds
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | Using Cloud DesktopOwnerSettings.
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | DesktopOwnerSettings JSON:
+{
+    "desktopSettings" : {
+        "systemApps" : {
+            "workspace" : {
+                "customConfig" : {
+                }
+            }
+        }
+    }
+}
+23-03-31 13:42:15.248 | 15300:16836 | INFO | GENERAL | Parsing DesktopOwnerSettings configuration
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | Successfully parsed the following RVM settings keys/values
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | OpenFin System Applications: 
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | Global Configuration key: systemAppsEnvironment missing. Using default value.
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | 	workspace
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | Global Configuration Overwriting:	openfinSystemApplications
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | Global Configuration key: assetsUrl missing. Using default value.
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | Global Configuration key: lrsUrl missing. Using default value.
+23-03-31 13:42:15.248 | 15300:16836 | INFO | VERBOSE | 	Using RdmUrl: https://dl.openfin.co/services/
+23-03-31 13:42:15.249 | 15300:16836 | INFO | NETWORK | Get request for url: "https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.249 | 15300:16836 | INFO | NETWORK | Processing url: "https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.321 | 15300:16836 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:15.321 | 15300:16836 | INFO | NETWORK | ContentLength: 787
+23-03-31 13:42:15.321 | 15300:16836 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:15.321 | 15300:16836 | INFO | NETWORK | ContentLength: 787
+23-03-31 13:42:15.321 | 15300:16836 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:15.321 | 15300:16836 | INFO | NETWORK | Result: 1, total read: 787
+23-03-31 13:42:15.321 | 15300:16836 | INFO | NETWORK | Get request completed in: 72 milliseconds
+23-03-31 13:42:15.321 | 15300:16836 | INFO | VERBOSE | JSON from https://workspace.openfin.co/release/system-apps/notification-center/app.json:
+{
+    "devtools_port" : 9090,
+    "fallbackManifests" : [
+        {
+            "manifest" : "https://cdn.openfin.co/release/system-apps/notification-center/1.19.2/app.json"
+        }
+    ],
+    "licenseKey" : "64605fac-add3-48a0-8710-64b38e96a2dd",
+    "offlineAccess" : true,
+    "runtime" : {
+        "arguments" : "--enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window",
+        "version" : "29.108.73.14"
+    },
+    "startup_app" : {
+        "autoShow" : false,
+        "backgroundColor" : "#1F1E24",
+        "backgroundThrottling" : false,
+        "defaultHeight" : 400,
+        "defaultWidth" : 500,
+        "description" : "OpenFin Notification Center",
+        "logManagement" : {
+            "enabled" : true
+        },
+        "name" : "Notifications-Service",
+        "saveWindowState" : false,
+        "url" : "https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html",
+        "uuid" : "notifications-service"
+    },
+    "workspace" : {
+    }
+}
+23-03-31 13:42:15.321 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.321 | 15300:16836 | INFO | VERBOSE | Attempting to parse app config from JSON
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	[-- Relative paths enabled. --]
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	rootUrl : https://workspace.openfin.co/release/system-apps/notification-center
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	startup_app's UUID : notifications-service
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	startup_app's URL : https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	startup_app's name : Notifications-Service
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	log management enabled: 1
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	runtime:
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 		version : 29.108.73.14
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 		arguments : --enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	licenseKey : 64605fac-add3-48a0-8710-64b38e96a2dd
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	offlineAccess : 1
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | Successfully parsed APP Config JSON keys/values
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | Global Configuration key: crashReporterUrl missing. Using default value.
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | Global Configuration key: lrsUrl missing. Using default value.
+23-03-31 13:42:15.322 | 15300:16836 | INFO | VERBOSE | 	Using RdmUrl: https://dl.openfin.co/services/
+23-03-31 13:42:15.322 | 15300:16836 | INFO | NETWORK | Get request for url: "https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.322 | 15300:16836 | INFO | NETWORK | Processing url: "https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.391 | 15300:16836 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:15.391 | 15300:16836 | INFO | NETWORK | ContentLength: 787
+23-03-31 13:42:15.391 | 15300:16836 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:15.391 | 15300:16836 | INFO | NETWORK | ContentLength: 787
+23-03-31 13:42:15.391 | 15300:16836 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:15.391 | 15300:16836 | INFO | NETWORK | Result: 1, total read: 787
+23-03-31 13:42:15.391 | 15300:16836 | INFO | NETWORK | Get request completed in: 69 milliseconds
+23-03-31 13:42:15.391 | 15300:16836 | INFO | VERBOSE | JSON from https://workspace.openfin.co/release/system-apps/notification-center/app.json:
+{
+    "devtools_port" : 9090,
+    "fallbackManifests" : [
+        {
+            "manifest" : "https://cdn.openfin.co/release/system-apps/notification-center/1.19.2/app.json"
+        }
+    ],
+    "licenseKey" : "64605fac-add3-48a0-8710-64b38e96a2dd",
+    "offlineAccess" : true,
+    "runtime" : {
+        "arguments" : "--enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window",
+        "version" : "29.108.73.14"
+    },
+    "startup_app" : {
+        "autoShow" : false,
+        "backgroundColor" : "#1F1E24",
+        "backgroundThrottling" : false,
+        "defaultHeight" : 400,
+        "defaultWidth" : 500,
+        "description" : "OpenFin Notification Center",
+        "logManagement" : {
+            "enabled" : true
+        },
+        "name" : "Notifications-Service",
+        "saveWindowState" : false,
+        "url" : "https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html",
+        "uuid" : "notifications-service"
+    },
+    "workspace" : {
+    }
+}
+23-03-31 13:42:15.391 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.391 | 15300:16836 | INFO | VERBOSE | Attempting to parse app config from JSON
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	[-- Relative paths enabled. --]
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	rootUrl : https://workspace.openfin.co/release/system-apps/notification-center
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	startup_app's UUID : notifications-service
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	startup_app's URL : https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	startup_app's name : Notifications-Service
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	log management enabled: 1
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	runtime:
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 		version : 29.108.73.14
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 		arguments : --enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	licenseKey : 64605fac-add3-48a0-8710-64b38e96a2dd
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | 	offlineAccess : 1
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | Successfully parsed APP Config JSON keys/values
+23-03-31 13:42:15.392 | 15300:16836 | INFO | VERBOSE | _______________________________________________________________
+23-03-31 13:42:15.393 | 15300:16836 | INFO | VERBOSE | Saving support email: support@openfin.co; and offlineAccessEnabled: 1; to cache
+23-03-31 13:42:15.424 | 15300:16836 | INFO | GENERAL | Added app to load queue: https://workspace.openfin.co/release/system-apps/notification-center/app.json, origin: LaunchAppApiCall
+23-03-31 13:42:15.424 | 15300:16836 | INFO | VERBOSE | Uninitializing CAD
+23-03-31 13:42:15.424 | 15300:16836 | INFO | APP_REGISTRY | Added 'https://workspace.openfin.co/release/system-apps/notification-center/app.json'
+23-03-31 13:42:15.424 | 15300:16836 | INFO | APP_REGISTRY | https://workspace.openfin.co/release/system-apps/notification-center/app.json: Created -> Created [NO ERROR]
+23-03-31 13:42:15.424 | 15300:16836 | INFO | APP_REGISTRY | https://workspace.openfin.co/release/system-apps/notification-center/app.json: Created -> Loading [NO ERROR]
+23-03-31 13:42:15.425 | 15300:3300 | INFO | NETWORK | Head request for url: "https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.425 | 15300:3300 | INFO | NETWORK | Processing url: "https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.443 | 15300:3300 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:15.443 | 15300:3300 | INFO | NETWORK | ContentLength: 787
+23-03-31 13:42:15.443 | 15300:3300 | INFO | NETWORK | Content-Type: application/json
+23-03-31 13:42:15.443 | 15300:3300 | INFO | NETWORK | Head request completed in: 18 milliseconds
+23-03-31 13:42:15.443 | 15300:3300 | INFO | VERBOSE | Global Configuration key: appDirectoryUrl missing. Using default value.
+23-03-31 13:42:15.443 | 15300:3300 | INFO | NETWORK | Get request for url: "https://config.openfin.co/api/v1/info?manifest=https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.443 | 15300:3300 | INFO | NETWORK | Processing url: "https://config.openfin.co/api/v1/info?manifest=https://workspace.openfin.co/release/system-apps/notification-center/app.json"
+23-03-31 13:42:15.531 | 15300:5832 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:15.531 | 15300:5832 | INFO | NETWORK | ContentLength: 13
+23-03-31 13:42:15.531 | 15300:5832 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:15.531 | 15300:5832 | INFO | NETWORK | ContentLength: 13
+23-03-31 13:42:15.531 | 15300:5832 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:15.532 | 15300:5832 | INFO | NETWORK | Result: 1, total read: 13
+23-03-31 13:42:15.532 | 15300:5832 | INFO | NETWORK | Post request completed in: 340 milliseconds
+23-03-31 13:42:15.763 | 15300:3300 | INFO | NETWORK | StatusCode: 404
+23-03-31 13:42:15.763 | 15300:3300 | INFO | NETWORK | ContentLength: 51
+23-03-31 13:42:15.763 | 15300:3300 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:15.763 | 15300:3300 | ERROR | NETWORK | Unhandled HTTP status code
+23-03-31 13:42:15.763 | 15300:3300 | INFO | NETWORK | Get request completed in: 320 milliseconds
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | Failed to reach config url. Trying local file.
+23-03-31 13:42:15.763 | 15300:3300 | ERROR | VERBOSE | It has been 19447 day(s) since Config was cached. The cached copy has expired.
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | Invalid cached copy. path: apps\Notifications-Service_1110768943\app_directory_info.json
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | Could not retrieve config locally.
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | Was not able to retrieve certified info for AppConfig: https://workspace.openfin.co/release/system-apps/notification-center/app.json
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | Certifying App Info: 
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	HasRun : 1
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	IsCertified : 0
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	IsSSLCertValid : 1
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	SuppressAnalytics : 0
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	enableDosCapture : 0
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	IsOptedIntoCertifiedApp : 0
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	IsCertifiedInAppDirectory : 0
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	appAnalytics : 1
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	desktopOwnerSettings : {
+}
+23-03-31 13:42:15.763 | 15300:3300 | INFO | VERBOSE | 	permissions : {
+}
+23-03-31 13:42:15.763 | 15300:16836 | INFO | VERBOSE | App will use the following assets URL: https://cdn.openfin.co/release/
+23-03-31 13:42:15.763 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:15.763 | 15300:16836 | INFO | VERBOSE | App will use the following RDM URL: https://dl.openfin.co/services/
+23-03-31 13:42:15.763 | 15300:20432 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:15.763 | 15300:20432 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:15.763 | 15300:20432 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:15.763 | 15300:16836 | INFO | GENERAL | Resolved https://cdn.openfin.co/release/runtime/29.108.73.14 to the runtime version: 29.108.73.14 -- Using Cache
+23-03-31 13:42:15.763 | 15300:16836 | INFO | GENERAL | Resolved https://cdn.openfin.co/release/runtime/29.108.73.14 to the runtime version: 29.108.73.14 -- Ignoring Cache
+23-03-31 13:42:15.763 | 15300:16836 | INFO | GENERAL | App load has successfully started for: https://workspace.openfin.co/release/system-apps/notification-center/app.json
+23-03-31 13:42:15.763 | 15300:16836 | INFO | VERBOSE | Outgoing Message to 00DF0796
+	{"broadcast":false,"messageId":"c23a892e-a22b-4ee7-bff3-6f0a98d6b0b8","payload":{"action":"launch-app","manifest":{"devtools_port":9090,"fallbackManifests":[{"manifest":"https://cdn.openfin.co/release/system-apps/notification-center/1.19.2/app.json"}],"licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd","offlineAccess":true,"runtime":{"arguments":"--enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window","version":"29.108.73.14"},"startup_app":{"autoShow":false,"backgroundColor":"#1F1E24","backgroundThrottling":false,"defaultHeight":400,"defaultWidth":500,"description":"OpenFin Notification Center","logManagement":{"enabled":true},"name":"Notifications-Service","saveWindowState":false,"url":"https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html","uuid":"notifications-service"},"workspace":{}}},"topic":"application"}
+23-03-31 13:42:15.763 | 15300:13016 | INFO | NETWORK | Get request for url: "http://cdn.openfin.co/release/rvm/ApiLanguage"
+23-03-31 13:42:15.763 | 15300:16836 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x00DF0796 timeout=00:00:01 message={"broadcast":false,"messageId":"c23a892e-a22b-4ee7-bff3-6f0a98d6b0b8","payload":{"action":"launch-app","manifest":{"devtools_port":9090,"fallbackManifests":[{"manifest":"https://cdn.openfin.co/release/system-apps/notification-center/1.19.2/app.json"}],"licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd","offlineAccess":true,"runtime":{"arguments":"--enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window","version":"29.108.73.14"},"startup_app":{"autoShow":false,"backgroundColor":"#1F1E24","backgroundThrottling":false,"defaultHeight":400,"defaultWidth":500,"description":"OpenFin Notification Center","logManagement":{"enabled":true},"name":"Notifications-Service","saveWindowState":false,"url":"https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html","uuid":"notifications-service"},"workspace":{}}},"topic":"application"}
+23-03-31 13:42:15.763 | 15300:13016 | INFO | NETWORK | Processing url: "http://cdn.openfin.co/release/rvm/ApiLanguage"
+23-03-31 13:42:15.763 | 15300:16836 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x00DF0796, took  0.000092s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"broadcast":false,"messageId":"c23a892e-a22b-4ee7-bff3-6f0a98d6b0b8","payload":{"action":"launch-app","manifest":{"devtools_port":9090,"fallbackManifests":[{"manifest":"https://cdn.openfin.co/release/system-apps/notification-center/1.19.2/app.json"}],"licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd","offlineAccess":true,"runtime":{"arguments":"--enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window","version":"29.108.73.14"},"startup_app":{"autoShow":false,"backgroundColor":"#1F1E24","backgroundThrottling":false,"defaultHeight":400,"defaultWidth":500,"description":"OpenFin Notification Center","logManagement":{"enabled":true},"name":"Notifications-Service","saveWindowState":false,"url":"https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html","uuid":"notifications-service"},"workspace":{}}},"topic":"application"}
+23-03-31 13:42:15.763 | 15300:19972 | INFO | VERBOSE | Termination event for process handle: 000006B0
+23-03-31 13:42:15.763 | 15300:19972 | ERROR | VERBOSE | Couldn't find runtime version for process handle 000006B0
+23-03-31 13:42:15.763 | 15300:19972 | INFO | VERBOSE | 1 apps are being loaded. Not quitting RVM.
+23-03-31 13:42:15.763 | 15300:19972 | INFO | VERBOSE | There exist 1 running runtime processes. Not quitting RVM.
+23-03-31 13:42:15.778 | 15300:19972 | INFO | VERBOSE | Existing running runtime process IDs: 6212
+23-03-31 13:42:15.778 | 15300:19972 | INFO | VERBOSE | Refreshing handles array
+23-03-31 13:42:15.894 | 15300:13016 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:15.894 | 15300:13016 | INFO | NETWORK | ContentLength: 1093
+23-03-31 13:42:15.894 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:15.894 | 15300:13016 | INFO | NETWORK | ContentLength: 1093
+23-03-31 13:42:15.894 | 15300:13016 | INFO | NETWORK | Content-Type: text/plain
+23-03-31 13:42:15.894 | 15300:13016 | INFO | NETWORK | Result: 1, total read: 1093
+23-03-31 13:42:15.894 | 15300:13016 | INFO | NETWORK | Get request completed in: 131 milliseconds
+23-03-31 13:42:15.894 | 15300:13016 | INFO | VERBOSE | Global Configuration key: secureByDefault missing. Using default value.
+23-03-31 13:42:15.894 | 15300:13016 | INFO | VERBOSE | Global Configuration key: enableRuntimeDiagnostics missing. Using default value.
+23-03-31 13:42:15.894 | 15300:13016 | INFO | GENERAL | Registered app: https://workspace.openfin.co/release/system-apps/notification-center/app.json for app diagnostics.
+23-03-31 13:42:15.894 | 15300:5832 | INFO | VERBOSE | About to perform licensing with https://dl.openfin.co/services/licensing
+23-03-31 13:42:15.894 | 15300:5832 | INFO | NETWORK | Post request for url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:15.894 | 15300:5832 | INFO | NETWORK | Processing url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:15.894 | 15300:13016 | INFO | VERBOSE | Did not detect security realm change.
+23-03-31 13:42:15.894 | 15300:13016 | INFO | GENERAL | Launching the runtime: C:\Users\Richard\AppData\Local\OpenFin\runtime\29.108.73.14\OpenFin\openfin.exe
+23-03-31 13:42:15.894 | 15300:13016 | INFO | GENERAL | With the following arguments:
+	"C:\Users\Richard\AppData\Local\OpenFin\runtime\29.108.73.14\OpenFin\openfin.exe" --version-keyword="29.108.73.14" --inspect --v=1 --startup-url="https://workspace.openfin.co/release/system-apps/notification-center/app.json" --enable-aggressive-domstorage-flushing --security-realm=of-notifications-service --enable-mesh --disable-legacy-window --data-dir="C:\Users\Richard\AppData\Local\OpenFin\data\2518602606" --local-startup-url="C:\Users\Richard\AppData\Local\OpenFin\apps\Notifications-Service_1110768943\config.json" --enable-desktop-owner-settings --user-data-dir="C:\Users\Richard\AppData\Local\OpenFin" 
+23-03-31 13:42:15.909 | 15300:13016 | INFO | VERBOSE | Monitoring process handle: 00000A8C
+23-03-31 13:42:15.909 | 15300:13016 | INFO | VERBOSE | Signaling monitor thread to refresh handles array
+23-03-31 13:42:15.909 | 15300:19972 | INFO | VERBOSE | Refreshing handles array
+23-03-31 13:42:15.909 | 15300:13016 | INFO | APP_REGISTRY | https://workspace.openfin.co/release/system-apps/notification-center/app.json: Loading -> Loaded [NO ERROR]
+23-03-31 13:42:15.909 | 15300:13016 | INFO | GENERAL | Successfully loaded the app: https://workspace.openfin.co/release/system-apps/notification-center/app.json
+23-03-31 13:42:15.930 | 15300:13016 | INFO | RUNTIME_MANAGER | Runtime '29.108.73.14' [0x00000F40] -> Started
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | Post request completed in: 345 milliseconds
+23-03-31 13:42:16.108 | 15300:20432 | INFO | NETWORK | HTTP task complete in: 345 milliseconds
+23-03-31 13:42:16.108 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:16.108 | 15300:22152 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:16.108 | 15300:22152 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:16.108 | 15300:22152 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:16.242 | 15300:5832 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:16.242 | 15300:5832 | INFO | NETWORK | ContentLength: 16
+23-03-31 13:42:16.242 | 15300:5832 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:16.242 | 15300:5832 | INFO | NETWORK | ContentLength: 16
+23-03-31 13:42:16.242 | 15300:5832 | INFO | NETWORK | Content-Type: application/json; charset=utf-8
+23-03-31 13:42:16.242 | 15300:5832 | INFO | NETWORK | Result: 1, total read: 16
+23-03-31 13:42:16.243 | 15300:5832 | INFO | NETWORK | Post request completed in: 349 milliseconds
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | Post request completed in: 313 milliseconds
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | HTTP task complete in: 313 milliseconds
+23-03-31 13:42:16.421 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:16.421 | 15300:22152 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:42:16.453 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:16.457 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x01170860; messageId: c9207d46-fd3a-45e2-95ce-f3ff90d4d2f8; payload: {"action":"get-desktop-owner-settings","isGlobal":true,"processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","sourceUrl":"https://workspace.openfin.co/release/system-apps/notification-center/app.json","timeToLive":2,"useSourceUrl":true}
+23-03-31 13:42:16.457 | 15300:13016 | INFO | VERBOSE | Global Configuration key: secureByDefault missing. Using default value.
+23-03-31 13:42:16.457 | 15300:13016 | INFO | VERBOSE | Policy for https://workspace.openfin.co/release/system-apps/notification-center/app.json is empty, trying for default policy
+23-03-31 13:42:16.459 | 15300:13016 | INFO | VERBOSE | QueueOutgoingMessage: [PendingRequest ID:2;attempt:0;duration:00:00:00.001023;->0x01170860;[FromRvmMessage [ ] application/get-desktop-owner-settings:c9207d46-fd3a-45e2-95ce-f3ff90d4d2f8]]
+23-03-31 13:42:16.459 | 15300:13016 | INFO | VERBOSE | MaybeScheduleNextRequestAttempt: Scheduling attempt in 00:00:00.001000: Initial Timer
+23-03-31 13:42:16.459 | 15300:13016 | INFO | VERBOSE | get-desktop-owner-settings response scheduled with ID 2
+23-03-31 13:42:16.484 | 15300:13016 | INFO | VERBOSE | OnTimerFired: Looking for request: Initial Timer
+23-03-31 13:42:16.484 | 15300:13016 | INFO | VERBOSE | TrySendMessage: Found request: [PendingRequest ID:2;attempt:0;duration:00:00:00.026612;->0x01170860;[FromRvmMessage [ ] application/get-desktop-owner-settings:c9207d46-fd3a-45e2-95ce-f3ff90d4d2f8]]
+23-03-31 13:42:16.484 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x01170860 timeout=00:00:00.300000 message={"messageId":"c9207d46-fd3a-45e2-95ce-f3ff90d4d2f8","payload":{"action":"get-desktop-owner-settings","applicationSettingsExists":true,"desktopOwnerFileExists":true,"openfinSystemApplications":{"workspace":{"customConfig":{}}},"payload":{"https://workspace.openfin.co/release/system-apps/notification-center/app.json":{"permissions":{}}},"success":true},"topic":"application"}
+23-03-31 13:42:16.487 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x01170860, took  0.004708s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"messageId":"c9207d46-fd3a-45e2-95ce-f3ff90d4d2f8","payload":{"action":"get-desktop-owner-settings","applicationSettingsExists":true,"desktopOwnerFileExists":true,"openfinSystemApplications":{"workspace":{"customConfig":{}}},"payload":{"https://workspace.openfin.co/release/system-apps/notification-center/app.json":{"permissions":{}}},"success":true},"topic":"application"}
+23-03-31 13:42:16.487 | 15300:13016 | INFO | VERBOSE | TrySendMessage: Request sent OK: [PendingRequest ID:2;attempt:0;duration:00:00:00.028874;->0x01170860;[FromRvmMessage [ ] application/get-desktop-owner-settings:c9207d46-fd3a-45e2-95ce-f3ff90d4d2f8]]
+23-03-31 13:42:16.487 | 15300:13016 | INFO | VERBOSE | get-desktop-owner-settings response with ID 2 result is VoidOrError: <no error>
+23-03-31 13:42:16.548 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:16.548 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x01170860; messageId: 30d3b134-ead6-4a98-a4d8-5a27b78d1866; payload: {"action":"launched-from","processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","sourceUrl":"https://workspace.openfin.co/release/system-apps/notification-center/app.json","timeToLive":2}
+23-03-31 13:42:16.548 | 15300:13016 | INFO | VERBOSE | Processed launched-from message for https://workspace.openfin.co/release/system-apps/notification-center/app.json
+23-03-31 13:42:16.548 | 15300:13016 | INFO | VERBOSE | Outgoing Message to 01170860
+	{"broadcast":false,"messageId":"30d3b134-ead6-4a98-a4d8-5a27b78d1866","payload":{"action":"launched-from","source":"shortcut"},"topic":"application"}
+23-03-31 13:42:16.548 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x01170860 timeout=00:00:01 message={"broadcast":false,"messageId":"30d3b134-ead6-4a98-a4d8-5a27b78d1866","payload":{"action":"launched-from","source":"shortcut"},"topic":"application"}
+23-03-31 13:42:16.597 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:16.597 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x01170860
+	{"topic":"application-event","messageId":"c3cd71be-63dd-4a28-8ce7-bd45de2c8857","payload":{"processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","type":"started","sourceUrl":"https://workspace.openfin.co/release/system-apps/notification-center/app.json","sessionId":"1864f4dc-2813-4f14-a8df-2ceeae1ad09e","data":{"licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd","uuid":"notifications-service","client":{"type":"js"},"parentApp":{"uuid":null,"configUrl":null},"contentUrl":"https://workspace.openfin.co/release/system-apps/notification-center/1.20.0/provider.html"}}}
+23-03-31 13:42:16.597 | 15300:13016 | INFO | APP_REGISTRY | https://workspace.openfin.co/release/system-apps/notification-center/app.json: Loaded -> Started [NO ERROR]
+23-03-31 13:42:16.597 | 15300:13016 | INFO | ENPOINT_ID_REGISTRY | 'https://workspace.openfin.co/release/system-apps/notification-center/app.json' -> 0x01170860
+23-03-31 13:42:16.597 | 15300:13016 | INFO | HEALTHCHECK_REQUEST_MAKER | OnEndpointIdSet: 'https://workspace.openfin.co/release/system-apps/notification-center/app.json' -> '0x01170860'
+23-03-31 13:42:16.597 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x01170860, took  0.040159s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"broadcast":false,"messageId":"30d3b134-ead6-4a98-a4d8-5a27b78d1866","payload":{"action":"launched-from","source":"shortcut"},"topic":"application"}
+23-03-31 13:42:16.597 | 15300:5832 | INFO | VERBOSE | About to perform licensing with https://dl.openfin.co/services/licensing
+23-03-31 13:42:16.597 | 15300:5832 | INFO | NETWORK | Post request for url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:16.597 | 15300:5832 | INFO | NETWORK | Processing url: "https://dl.openfin.co/services/licensing"
+23-03-31 13:42:16.652 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:16.653 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x01170860
+	{"topic":"application-event","messageId":"c0a4c7a7-d8a2-4ebe-96d0-16b9648155c3","payload":{"processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","type":"started","sourceUrl":null,"sessionId":"1864f4dc-2813-4f14-a8df-2ceeae1ad09e","data":{"uuid":"29.108.73.14/9696/","parentApp":{"uuid":null,"configUrl":null}}}}
+23-03-31 13:42:16.653 | 15300:13016 | ERROR | VERBOSE | Failed to read the app event payload
+23-03-31 13:42:16.700 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:16.700 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x00DF0796
+	{"topic":"application-event","messageId":"5909853c-a71c-46c8-9e66-86673cb0735d","payload":{"processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","type":"started","sourceUrl":null,"sessionId":"a312a1c3-7541-4ac4-a892-e92f6d2954a4","data":{"uuid":"29.108.73.14/58646/of-notifications-service","parentApp":{"uuid":null,"configUrl":null}}}}
+23-03-31 13:42:16.701 | 15300:13016 | ERROR | VERBOSE | Failed to read the app event payload
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | Post request completed in: 327 milliseconds
+23-03-31 13:42:16.748 | 15300:22152 | INFO | NETWORK | HTTP task complete in: 327 milliseconds
+23-03-31 13:42:16.865 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:16.865 | 15300:13016 | INFO | VERBOSE | Incoming Message from 0x01170860
+	{"topic":"application-event","messageId":"95e2514f-d4ff-436b-9ea6-6a6f37d42822","payload":{"processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","type":"ready","sourceUrl":"https://workspace.openfin.co/release/system-apps/notification-center/app.json","hideSplashScreenSupported":true}}
+23-03-31 13:42:16.865 | 15300:13016 | INFO | APP_REGISTRY | https://workspace.openfin.co/release/system-apps/notification-center/app.json: Started -> Ready [NO ERROR]
+23-03-31 13:42:16.923 | 15300:5832 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:42:16.923 | 15300:5832 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.923 | 15300:5832 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.923 | 15300:5832 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:42:16.923 | 15300:5832 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:42:16.923 | 15300:5832 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:42:16.923 | 15300:5832 | INFO | NETWORK | Post request completed in: 326 milliseconds
+23-03-31 13:42:17.985 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:17.985 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x01170860; messageId: 111f0129-ead8-48cb-9b93-cd0982a73022; payload: {"action":"hide-splashscreen","processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","sourceUrl":"https://workspace.openfin.co/release/system-apps/notification-center/app.json"}
+23-03-31 13:42:17.985 | 15300:13016 | INFO | GENERAL | Processed manual hide-splashscreen message for https://workspace.openfin.co/release/system-apps/notification-center/app.json
+23-03-31 13:42:17.985 | 15300:13016 | INFO | VERBOSE | Uninitializing CAD
+23-03-31 13:42:17.985 | 15300:13016 | INFO | VERBOSE | Outgoing Message to 01170860
+	{"messageId":"111f0129-ead8-48cb-9b93-cd0982a73022","success":true}
+23-03-31 13:42:17.985 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x01170860 timeout=00:00:01 message={"messageId":"111f0129-ead8-48cb-9b93-cd0982a73022","success":true}
+23-03-31 13:42:17.986 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x01170860, took  0.000391s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"messageId":"111f0129-ead8-48cb-9b93-cd0982a73022","success":true}
+23-03-31 13:42:18.011 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:18.011 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x01170860; messageId: 3e0163f0-c7c3-4268-821b-9c6db01e9301; payload: {"action":"tray-added","iconUrl":"iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAKlBMVEX///////////////////////////////////////////////////9HcExPxYQ3AAAADnRSTlP/uyBA3xCfkM99YO9QAMKuwIsAAAEdSURBVEjH1dVNSsNAHIfhf5qgbYObupRC3HQnNAcQ5gKCrroKBPeFgrgsFLxAL1DoBQSPkAsUatOq0XoXbdrGmd98EYSGvtt5FvPBzNC3JTo4SC+cKyNIiJomsGJEfmQAa/ptZgB3G9DSg5DyznXgknbdq8Hnyx54z0owpqKGCmTENVGAhAeuDBaMB3+7VYA3EupLIBBBTQKxCE4lwETgI0gJugaQIZgAeEXQt4E2gA8ENwCWNvBlA3MEZ2XBLYIagODfoIvALQsSBE0AUxuIETgiCEnqiQeK8f0dJuHWirUKwNSgXgDSdFxAs0yvmu/AAvjZKwHjDkkJBltwogVdeOEk8L4FQy1YjfIpRPpl9jbg0bQPnZH3UPXXLPcDIldadClJA9IAAAAASUVORK5CYII=","processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","sourceUrl":"https://workspace.openfin.co/release/system-apps/notification-center/app.json","uuid":"notifications-service"}
+23-03-31 13:42:18.011 | 15300:13016 | INFO | VERBOSE | Outgoing Message to 01170860
+	{"messageId":"3e0163f0-c7c3-4268-821b-9c6db01e9301","success":true}
+23-03-31 13:42:18.011 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() starting: 0x004A09D8 -> 0x01170860 timeout=00:00:01 message={"messageId":"3e0163f0-c7c3-4268-821b-9c6db01e9301","success":true}
+23-03-31 13:42:18.012 | 15300:13016 | INFO | VERBOSE | ::SendMessageTimeout() finished: 0x004A09D8 -> 0x01170860, took  0.000188s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+ sendResult = 1 message={"messageId":"3e0163f0-c7c3-4268-821b-9c6db01e9301","success":true}
+23-03-31 13:42:24.598 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:24.601 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x00DF0796; messageId: eacaaa65-7adc-403d-8bf5-810c0995117a; payload: {"action":"application-log","payload":"[payload hidden for this message]","processId":6212,"runtimeVersion":"29.108.73.14","securityRealm":"","sourceUrl":""}
+23-03-31 13:42:24.602 | 15300:13016 | INFO | VERBOSE | Initializing app logger for http://localhost:9000/app.json
+23-03-31 13:42:24.602 | 15300:13016 | INFO | VERBOSE | maxAppLogFileSizeBytes not specified, using default
+23-03-31 13:42:26.777 | 15300:13016 | INFO | VERBOSE | MessageDispatcher::OnMessage - incoming message
+23-03-31 13:42:26.777 | 15300:13016 | INFO | VERBOSE | Incoming application-topic message from: 0x01170860; messageId: b62dd80f-3bee-45c8-afc5-61c2ae95cb7b; payload: {"action":"application-log","payload":"[payload hidden for this message]","processId":3904,"runtimeVersion":"29.108.73.14","securityRealm":"of-notifications-service","sourceUrl":""}
+23-03-31 13:42:26.777 | 15300:13016 | INFO | VERBOSE | Initializing app logger for https://workspace.openfin.co/release/system-apps/notification-center/app.json
+23-03-31 13:42:26.777 | 15300:13016 | INFO | VERBOSE | maxAppLogFileSizeBytes not specified, using default
+23-03-31 13:47:13.096 | 15300:11464 | INFO | VERBOSE | Sending analytics event to https://ingest.openfin.co/desktop-analytics/
+23-03-31 13:47:13.096 | 15300:3300 | INFO | NETWORK | HTTP task: "https://ingest.openfin.co/desktop-analytics/", type: POST
+23-03-31 13:47:13.096 | 15300:3300 | INFO | NETWORK | Post request for url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:47:13.096 | 15300:3300 | INFO | NETWORK | Processing url: "https://ingest.openfin.co/desktop-analytics/"
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | StatusCode: 200
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | ContentLength: 2
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | Content-Type: text/plain; charset=utf-8
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | Result: 1, total read: 2
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | Post request completed in: 318 milliseconds
+23-03-31 13:47:13.414 | 15300:3300 | INFO | NETWORK | HTTP task complete in: 318 milliseconds

@@ -1,0 +1,14 @@
+2023-03-31 13:42:14.592 WARN - WARNING : Application does not have supportInformation declared in application manifest. Error reports will be sent to support@openfin.co by default.
+2023-03-31 13:42:14.718 INFO - [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled.
+2023-03-31 13:42:14.734 INFO - [HMR] Waiting for update signal from WDS...
+2023-03-31 13:42:14.765 INFO - %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+2023-03-31 13:42:14.984 INFO - 111
+2023-03-31 13:42:15.184 WARN - getManifestOverrides: Missing Home development manifest overrides, using Desktop Owner Settings.
+2023-03-31 13:42:15.186 WARN - Channel not found for channelName: of-notifications-service-v1, waiting for channel connection.
+2023-03-31 13:42:15.224 INFO - 222
+2023-03-31 13:42:15.224 INFO - Notification Service: connecting...
+2023-03-31 13:42:15.237 INFO - 222
+2023-03-31 13:42:15.237 INFO - Notification Service: connecting...
+2023-03-31 13:42:15.237 WARN - Channel not found for channelName: of-notifications-service-v1, waiting for channel connection.
+2023-03-31 13:42:15.246 WARN - Channel not found for channelName: of-notifications-service-v1, waiting for channel connection.
+2023-03-31 13:42:20.207 WARN - Taking a long time to connect to Notifications service. Is the Notifications service running?
