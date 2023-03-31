@@ -1,7 +1,10 @@
 import { useEffect } from "react";
+import { init } from "./marketaxess-repro";
 
 function App() {
-    useEffect(() => {}, []);
+    useEffect(() => {
+        init();
+    }, []);
     return <div>Playground</div>;
 }
 
