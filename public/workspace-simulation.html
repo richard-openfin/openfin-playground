@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Workspace Simulation</title>
+    </head>
+
+    <body>
+        Workspace Simulation
+        <script>
+            async function init() {
+                fin.Platform.getCurrentSync().addListener(
+                    "platform-api-ready",
+                    async () => {
+                        const channelProvider =
+                            await fin.InterApplicationBus.Channel.create(
+                                "workspace-simulation-channel-provider"
+                            );
+
+                        channelProvider.onConnection((identity, payload) => {
+                            console.log(
+                                "Connection from:",
+                                JSON.stringify(identity),
+                                JSON.stringify(payload)
+                            );
+                        });
+
+                        channelProvider.onDisconnection((event) => {
+                            console.log("Disconnected:", JSON.stringify(event));
+                        });
+                    }
+                );
+
+                fin.Platform.init({});
+            }
+
+            init();
+        </script>
+    </body>
+</html>

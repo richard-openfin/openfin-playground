@@ -5,10 +5,15 @@
         "name": "Channel Provider",
         "url": "http://localhost:9000/channel-provider.html",
         "uuid": "channel-provider",
-        "autoShow": false
+        "backgroundThrottling": false,
+        "autoShow": false,
+        "logManagement": {
+            "enabled": true
+        },
+        "offlineAccess": true
     },
     "runtime": {
-        "arguments": "",
+        "arguments": "--enable-aggressive-domstorage-flushing --security-realm=test-security-realm --enable-mesh --disable-legacy-window",
         "version": "29.108.73.14"
     }
 }

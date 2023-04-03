@@ -1,0 +1,25 @@
+{
+    "licenseKey": "64605fac-add3-48a0-8710-64b38e96a2dd",
+    "devtools_port": 9090,
+    "platform": {
+        "name": "Workspace Simulation",
+        "providerUrl": "http://localhost:9000/workspace-simulation.html",
+        "uuid": "workspace-simulation",
+        "backgroundThrottling": false,
+        "autoShow": false,
+        "logManagement": {
+            "enabled": true
+        },
+        "offlineAccess": true
+    },
+    "services": [
+        {
+            "name": "channel-provider",
+            "manifestUrl": "http://localhost:9000/channel-provider.json"
+        }
+    ],
+    "runtime": {
+        "arguments": "",
+        "version": "29.108.73.14"
+    }
+}

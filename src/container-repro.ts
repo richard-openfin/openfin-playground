@@ -15,7 +15,32 @@ const launchAppWithChannelProviderAndTryToConnect = async () => {
     );
 
     console.warn("First connection to test-channel-provider");
-    fin.InterApplicationBus.Channel.connect("test-channel-provider");
+    fin.InterApplicationBus.Channel.connect("test-channel-provider", {
+        wait: true,
+    });
+};
+
+const tryToConnectToChannelProvider = async () => {
+    console.warn("Connecting to test-channel-provider...");
+    await fin.InterApplicationBus.Channel.connect("test-channel-provider", {
+        wait: true,
+    });
+    console.log("Connected.");
+};
+
+const launchAndConnectWorkspaceSimulation = async () => {
+    await fin.Application.startFromManifest(
+        "http://localhost:9000/workspace-simulation.json"
+    );
+
+    console.log("Connecting to workspace-simulation...");
+    await fin.InterApplicationBus.Channel.connect(
+        "workspace-simulation-channel-provider",
+        {
+            wait: true,
+        }
+    );
+    console.log("Connected to workspace-simulation.");
 };
 
 export const init = async () => {
@@ -26,10 +51,12 @@ export const init = async () => {
 
     await wpSimulationInit();
 
-    fin.Platform.getCurrentSync().addListener("platform-api-ready", () => {
-        console.log(222);
-        console.warn("Connecting to test-channel-provider...");
-        fin.InterApplicationBus.Channel.connect("test-channel-provider");
-        console.log("Connected.");
-    });
+    fin.Platform.getCurrentSync().addListener(
+        "platform-api-ready",
+        async () => {
+            console.log(222);
+            await tryToConnectToChannelProvider();
+            await launchAndConnectWorkspaceSimulation();
+        }
+    );
 };

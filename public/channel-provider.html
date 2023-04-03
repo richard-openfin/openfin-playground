@@ -11,22 +11,24 @@
         Channel Provider
         <script>
             async function createChannelProvider() {
-                const channelProvider =
-                    await fin.InterApplicationBus.Channel.create(
-                        "test-channel-provider"
-                    );
+                setTimeout(async () => {
+                    const channelProvider =
+                        await fin.InterApplicationBus.Channel.create(
+                            "test-channel-provider"
+                        );
 
-                channelProvider.onConnection((identity, payload) => {
-                    console.log(
-                        "Connection from:",
-                        JSON.stringify(identity),
-                        JSON.stringify(payload)
-                    );
-                });
+                    channelProvider.onConnection((identity, payload) => {
+                        console.log(
+                            "Connection from:",
+                            JSON.stringify(identity),
+                            JSON.stringify(payload)
+                        );
+                    });
 
-                channelProvider.onDisconnection((event) => {
-                    console.log("Disconnected:", JSON.stringify(event));
-                });
+                    channelProvider.onDisconnection((event) => {
+                        console.log("Disconnected:", JSON.stringify(event));
+                    });
+                }, 1000);
             }
 
             createChannelProvider();
