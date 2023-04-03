@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Channel Provider</title>
+    </head>
+
+    <body>
+        Channel Provider
+        <script>
+            async function createChannelProvider() {
+                const channelProvider =
+                    await fin.InterApplicationBus.Channel.create(
+                        "test-channel-provider"
+                    );
+
+                channelProvider.onConnection((identity, payload) => {
+                    console.log(
+                        "Connection from:",
+                        JSON.stringify(identity),
+                        JSON.stringify(payload)
+                    );
+                });
+
+                channelProvider.onDisconnection((event) => {
+                    console.log("Disconnected:", JSON.stringify(event));
+                });
+            }
+
+            createChannelProvider();
+        </script>
+    </body>
+</html>

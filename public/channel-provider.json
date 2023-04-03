@@ -1,0 +1,14 @@
+{
+    "licenseKey": "64605fac-add3-48a0-8710-64b38e96a2dd",
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "Channel Provider",
+        "url": "http://localhost:9000/channel-provider.html",
+        "uuid": "channel-provider",
+        "autoShow": false
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "29.108.73.14"
+    }
+}

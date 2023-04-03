@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { init } from "./marketaxess-repro";
+import { init } from "./container-repro";
 
 function App() {
     useEffect(() => {
