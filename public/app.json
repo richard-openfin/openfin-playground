@@ -1,15 +1,15 @@
 {
     "licenseKey": "64605fac-add3-48a0-8710-64b38e96a2dd",
     "devtools_port": 9090,
-    "startup_app": {
+    "platform": {
         "name": "Playground",
-        "url": "http://localhost:9000/index.html",
+        "providerUrl": "http://localhost:9000/index.html",
         "uuid": "playground",
         "autoShow": true
     },
     "runtime": {
         "arguments": "",
-        "version": "stable"
+        "version": "30.110.74.13"
     },
     "shortcut": {
         "company": "OpenFin",
