@@ -1,0 +1,19 @@
+{
+    "name": "module-federation",
+    "private": true,
+    "workspaces": [
+        "./customers-app",
+        "./openfin-mobile"
+    ],
+    "version": "0.0.0",
+    "scripts": {
+        "start": "yarn build && yarn serve",
+        "build": "concurrently \"cd customers-app; yarn build\" \"cd openfin-mobile; yarn build\"",
+        "serve": "concurrently \"cd customers-app; yarn serve\" \"cd openfin-mobile; yarn serve\"",
+        "clean": "concurrently \"cd customers-app; yarn clean\" \"cd openfin-mobile; yarn clean\""
+    },
+    "devDependencies": {
+        "concurrently": "7.6.0",
+        "wait-on": "7.0.1"
+    }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenfin_mobile=self.webpackChunkopenfin_mobile||[]).push([[940],{940:(e,n,t)=>{t.r(n),t.d(n,{default:()=>l});var o=t(369),c=t.n(o);const f={background:"#00c",color:"#fff",padding:12},l=()=>c().createElement("button",{style:f},"App 2 Button")}}]);

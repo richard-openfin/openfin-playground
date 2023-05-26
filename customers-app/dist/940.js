@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcustomers_app=self.webpackChunkcustomers_app||[]).push([[940],{940:(e,t,s)=>{s.r(t),s.d(t,{default:()=>c});var p=s(369),u=s.n(p);const a={background:"#800",color:"#fff",padding:12},c=()=>u().createElement("button",{style:a},"App 1 Button")}}]);

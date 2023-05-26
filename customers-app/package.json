@@ -1,24 +1,25 @@
 {
     "name": "customers-app",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "private": true,
+    "devDependencies": {
+        "@babel/core": "7.21.4",
+        "@babel/preset-react": "7.18.6",
+        "babel-loader": "8.2.5",
+        "html-webpack-plugin": "5.5.1",
+        "serve": "13.0.4",
+        "webpack": "5.80.0",
+        "webpack-cli": "4.10.0",
+        "webpack-dev-server": "4.13.3"
+    },
     "scripts": {
-        "start": "serve dist -p 3001",
+        "start": "webpack-cli serve",
         "build": "webpack --mode production",
-        "dev": "concurrently \"webpack --watch\" \"serve dist -p 3001\""
+        "serve": "serve dist -p 3001",
+        "clean": "rm -rf dist"
     },
     "dependencies": {
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.8.6",
-        "@babel/preset-react": "^7.8.3",
-        "babel-loader": "^8.0.6",
-        "concurrently": "^5.1.0",
-        "html-webpack-plugin": "git://github.com/ScriptedAlchemy/html-webpack-plugin#master",
-        "serve": "^11.3.0",
-        "webpack": "git://github.com/webpack/webpack.git#dev-1",
-        "webpack-cli": "^3.3.11"
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0"
     }
 }
